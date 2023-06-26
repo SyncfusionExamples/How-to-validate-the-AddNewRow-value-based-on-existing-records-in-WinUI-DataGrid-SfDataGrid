@@ -10,11 +10,7 @@
     <Grid >       
         <Grid.DataContext>
             <local:ViewModel  />
-        </Grid.DataContext>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition Width="250"/>
-        </Grid.ColumnDefinitions>
+        </Grid.DataContext>      
         <Syncfusion:SfDataGrid x:Name="dataGrid"    
                                SelectionMode="Extended"
                                ItemsSource="{Binding Orders}" 
